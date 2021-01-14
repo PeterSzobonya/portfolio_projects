@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Set</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="container-fluid" >
+        <div class="row" id="main_banner">
+            <div class="col-lg-12">
+                <div class="main_banner">
+                    <h1>Set</h1>
+                    <h2>The board game...</h2>
+                </div>
+            </div>
+        </div>
+    
+        <main>
+            <div class="menu">
+                <div class="row">
+                    <div class="col-12">
+                        <h1>The game</h1>
+                        <h2 id="expandable">click me</h2>
+                    </div>
+                </div>
+                <div id="game_description" class="hidden">
+                    <div class="row">
+                        <div class="col-lg-9 col-12">
+                            <article>
+                                <p>
+                                    The object of the game is to identify a SET of 3 cards from 12 cards placed face-up on the table. Each card has four features, which can vary as follows: shape, color, number and shading. <br>
+                                    A SET consists of 3 cards in which each of the cards' features, looked at one-by-one, are the same on each card, or, are different on each card. All of the features must separately satisfy this rule.<br>
+                                    In other words: shape must be either the same on all 3 cards, or different on each of the 3 cards; color must be either the same on all 3 cards, or different on each of the 3, etc. <br>
+                                    <br>
+                                    The dealer shuffles the cards and lays 12 face-up on the table (in a rectangle) so that they can be seen by all.
+                                    Players remove SETs of 3 cards from anywhere on the table. Each SET is checked by the other players.
+                                    <br>
+                                    If correct, the SET is kept by the player for one point and the dealer replaces the 3 cards with 3 from the deck. A player must call SET before picking up the cards.
+                                    <br>
+                                    There are no turns, the first player to call SET gets control of the board. After he/she has called SET, no other player can pick up cards until that player has finished.
+                                    <br>
+                                    The SET must be picked up within a few seconds after calling it. If a player calls SET and does not have one, or if the SET is incorrect, he/she loses one point, and the 3 cards are returned to the table. If all players agree that there is not a SET in the 12 cards, 3 more cards are laid face-up on the table.
+                                    <br>
+                                    The 3 cards are not replaced when the next SET is found, reducing the number back to 12.
+                                </p>
+                            </article>
+                        </div>
+                        <div class="col-lg-3 col 12">
+                            <img src="../images/cardTypes.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="settings">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>Settings</h1>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="selection row">
+                            <div class="col-lg-6">
+                                <h2>Game mode</h2>
+                                <input type="radio" name="mode" id="practice" value="practice" checked>
+                                <label for="practice">Practice</label>
+                                <br>
+                                <input type="radio" name="mode" id="race" value="race">
+                                <label for="race">Race</label>
+                                <div class="dificulty">
+                                    <h2>Difficulty</h2>
+                                    <input type="radio" name="difficulty" id="beginner" value="beginner">
+                                    <label for="beginner">Beginner</label>
+                                    <br>
+                                    <input type="radio" name="difficulty" id="expert" value="expert" checked>
+                                    <label for="expert">Expert</label>
+                                </div>
+                                <div class="additional_settings">
+                                    <h2>Additional settings</h2>
+                                    <input type="checkbox" name="add_set" id="set_exist">
+                                    <label for="set_exist">Create set exist button</label>
+                                    <br>
+                                    <input type="checkbox" name="add_set" id="show_set">
+                                    <label for="show_set">Create show set button</label>
+                                    <br>
+                                    <input type="checkbox" name="add_set" id="add_three">
+                                    <label for="add_three">Create add new cards button</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <h2>Players</h2>
+                                <label for="player_counter"></label>
+                                <input type="number" name="player_counter" id="player_counter" value="1" min="1" max="10">
+                                <div id="player_names"></div>
+                            </div>
+                            <div class="button_container">
+                                <button type="button" id="start_game">Start</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+            <div id="game_board" class="game_board hidden">
+                <div class="row">
+                    <div class="col-12" id="advanced_buttons">
+                        <button id="set_exist_btn">Set exist?</button>
+                        <button id="show_set_btn">Show set</button>
+                        <button id="add_new">Add new cards</button>
+                        <br>
+                        <span id="set_exist_label"></span>
+                    </div>
+                    <div class="col-lg-8" id="shown_cards">
+                    </div>
+                    <div class="col-lg-4 scores">
+                        <span id="cards_indeck"></span>
+                        <table id="players"></table>
+                        <h3 id="time_left_selected" class="title"></h3>
+                        <button id="end_go_home" class="hidden set_btn">Home</button>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="title" id="timer"></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="results" class="row">
+                <article class="col-lg-4">
+                    <h2>Best single player beginner</h2>
+                    <ol><li></li></ol>
+                </article>
+                <article class="col-lg-4">
+                    <h2>Best single player advanced</h2>
+                    <ol><li></li></ol>
+                </article>
+                <article class="col-lg-4">
+                    <h2>Last 10 multiplayer results</h2>
+                    <ul><li></li></ul>
+                </article>
+            </div>
+        </main>
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+</html>

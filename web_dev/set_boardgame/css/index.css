@@ -1,0 +1,220 @@
+body{
+    background-color: darkslategray;
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.row{
+    margin: 0;
+}
+
+h1{
+    color: coral;
+}
+
+/*   Header   */
+.main_banner h1{
+    padding: 60px 0px 0px 20px;
+    margin: 0;
+    font-size: 4em;
+    color: coral;
+    font-weight: 600;
+}
+
+.main_banner h2{
+    padding: 0 0 60px 40px;
+    margin: 0!;
+}
+
+/*   Menu  */
+.menu{
+    padding: 0;
+    margin: 0 0 40px 0;
+    background-color: black;
+}
+
+.menu h1{
+    font-weight: 600;
+    font-size: 2em;
+    padding: 30px 0 0px 20px;
+}
+
+.menu h2{
+    color: darkslategray;
+    padding: 0 0 20px 30px;
+    font-size: 1.15em;
+    padding-bottom: 0;
+    font-weight: 700;
+}
+
+.menu article{
+    color: gray;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.hidden{
+    height: 0;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.visible{
+    visibility: visible;
+    height: auto;
+}
+
+/*   Settings   */
+.settings{
+    background-color: darkslategray;
+}
+
+.settings h1{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.settings h2{
+    color: white;
+    padding-bottom: 0;
+    font-size: 1.15em;
+    font-weight: 700;
+}
+
+.selection input{
+    margin-top: 0;
+}
+
+.selection input{
+    margin-left: 45px;
+}
+
+.button_container{
+    width: 100%;
+    text-align: center;
+}
+
+label{
+    color: black;
+}
+
+.button_container button{
+    margin-top: 40px;
+    background-color: coral;
+    width: 60%;
+    padding: 4px;
+    border-radius: 5px;
+    border-width: 0;
+    font-size: 1.15em;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*   Game   */
+.game_board{
+    background-color: darkslategray;
+}
+
+#advanced_buttons button{
+    margin: 20px 10px;
+    background-color: coral;
+    padding: 4px;
+    border-radius: 5px;
+    border-width: 0;
+    font-size: 1.15em;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+
+#shown_cards img{
+    margin: 0;
+    padding: 5px;
+    width: 150px;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 40px;
+}
+
+table td{
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}
+
+.selected_card{
+    border-color: coral;
+    border-width: 5px;
+    background-color: coral;
+    border-radius: 10px;
+}
+
+.suggested_card{
+    border-color: aqua;
+    border-width: 5px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+#players td,th{
+    text-align: left;
+    color: white;
+}
+
+.set_btn{
+    margin-top: 5px;
+    background-color: coral;
+    border-radius: 5px;
+    border-width: 0;
+    font-size: 1.15em;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+
+.selected_btn{
+    margin-top: 5px;
+    background-color: aqua;
+    border-radius: 5px;
+    border-width: 0;
+    font-size: 1.15em;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.scores{
+    background-color: black;
+    padding: 20px;
+}
+
+.title{
+    color: white;
+    padding-bottom: 0;
+    font-size: 1.4em;
+    font-weight: 700;
+    text-align: center;
+}
+
+#results h2{
+    color: black;
+    font-weight: 500;
+}
+#results li{
+    color: white;
+}

@@ -1,0 +1,72 @@
+{
+    "5ffaf9ea808bf": {
+        "date": "2021-01-12",
+        "start_time": "08:00",
+        "end_time": "12:00",
+        "max_participants": "5",
+        "participants": [
+            {
+                "name": "Alma",
+                "taj": "01234567",
+                "adress": "Fa",
+                "email": "alma@alma.hu",
+                "admin": false,
+                "appointments": [],
+                "password": "$2y$10$R4E78sevkP02HafZumLPbuGnRr1Nw6EKOo4Dj2HtszK6IfTdI9nvy",
+                "id": "5ffb581d2762a"
+            }
+        ],
+        "id": "5ffaf9ea808bf"
+    },
+    "5ffb4389a85fa": {
+        "date": "2021-01-12",
+        "start_time": "12:00",
+        "end_time": "16:00",
+        "max_participants": "2",
+        "participants": [],
+        "id": "5ffb4389a85fa"
+    },
+    "5ffb5f8a78691": {
+        "date": "2021-01-13",
+        "start_time": "08:00",
+        "end_time": "10:00",
+        "max_participants": "1",
+        "participants": [
+            {
+                "name": "Peter Szobonya",
+                "taj": "12345678",
+                "adress": "Bp. Mateszalka u 25.",
+                "email": "szobonya.peter@gmail.com",
+                "admin": false,
+                "appointments": [],
+                "password": "$2y$10$ZPyEMhjFdTRUX3pN5R6xreh\/SCuAGd.ff5Xnutg6Pm087Itn0pdVW",
+                "id": "5ffac05d63230"
+            }
+        ],
+        "id": "5ffb5f8a78691"
+    },
+    "5ffb5fc251351": {
+        "date": "2021-01-28",
+        "start_time": "08:00",
+        "end_time": "11:00",
+        "max_participants": "3",
+        "participants": [],
+        "id": "5ffb5fc251351"
+    },
+    "5ffb5fe069deb": {
+        "date": "2021-01-10",
+        "start_time": "11:00",
+        "end_time": "11:30",
+        "max_participants": "1",
+        "participants": [],
+        "id": "5ffb5fe069deb"
+    },
+    "5ffb6dca56f5d": {
+        "date": "2021-01-25",
+        "start_time": "08:00",
+        "end_time": "11:00",
+        "max_participants": "5",
+        "participants": [],
+        "id": "5ffb6dca56f5d"
+    }
+}
