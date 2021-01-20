@@ -20,8 +20,11 @@ bool CompareFiles(std::string file1, std::string file2){
 #ifdef NORMAL_MODE
 
 int main(){
-    Simulate s("test2.txt");
-    s.PrintCurrent();
+    Simulate s("./tests/test2.txt");
+    do{
+        s.PrintCurrent();
+        s.Next();
+    } while(!s.End());
 }
 
 #else

@@ -44,7 +44,6 @@ void* worker(void *ws)
 {
    Workspace *workspace = (Workspace*)ws;
 
-   printf("thread %d started\n", workspace->tid);			//printing thread id 
 
    bool* points = malloc(sizeof(bool) * workspace->numOfPoints);	//dynamic memory allocation
    generatePoints(workspace->numOfPoints,points);
@@ -61,7 +60,6 @@ void* worker(void *ws)
    }
    free(points);						//freeing memory
 
-   printf("thread %d finished\n", workspace->tid);
 
    return NULL;
 }

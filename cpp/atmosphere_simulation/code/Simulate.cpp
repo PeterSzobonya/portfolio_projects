@@ -45,7 +45,7 @@ void Simulate::PrintCurrent()
     for(int i=0; i<layers.size(); ++i){
         std::cout << layers[i] ->GetType() << " " << layers[i] -> GetSize() << std::endl;
     }
-    std::cout << "\n\n";
+    std::cout << "\n";
 }
 
 void Simulate::Next()

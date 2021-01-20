@@ -52,7 +52,7 @@ int main(int argc, char const *argv[])
         }
     }
 
-    printf("trues: %d\nfalses: %d\narea: %f\n", trues, falses,trues/(numOfPoints*1.0)*4);
+    printf("area: %f\n",trues/(numOfPoints*1.0)*4);
 
     return EXIT_SUCCESS;
 }

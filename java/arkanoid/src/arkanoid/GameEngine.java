@@ -45,7 +45,7 @@ public class GameEngine extends JPanel {
     public GameEngine() {
         super();
         background = new ImageIcon("data/images/background.jpg").getImage();
-        this.getInputMap().put(KeyStroke.getKeyStroke("typed a"), "pressed left");
+        this.getInputMap().put(KeyStroke.getKeyStroke("LEFT"), "pressed left");
         this.getActionMap().put("pressed left", new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent ae) {

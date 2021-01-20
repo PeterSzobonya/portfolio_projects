@@ -504,6 +504,7 @@ function gameOver(){
             updateTopTenAdvanced(timer.innerHTML, players[0].name)
         } else {
             updateTopTenBeginner(timer.innerHTML, players[0].name)
+            console.log('alma');
         }
     } else if(players.length > 1){
         updateLastTenGroup(players)

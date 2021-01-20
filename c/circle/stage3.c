@@ -73,9 +73,6 @@ void* worker(void *ws)
 
 int main(int argc, char *argv[])
 {
-   struct timespec start, finish;			//starting time counter
-   double elapsed;
-   clock_gettime(CLOCK_MONOTONIC, &start);
 
    srand((unsigned int)time(NULL));			
    int numOfPoints = atoi(argv[1]);			//passing argument value (how many points to generate) to numOfPoints
@@ -116,11 +113,9 @@ int main(int argc, char *argv[])
 
    }
 
-   clock_gettime(CLOCK_MONOTONIC, &finish);
-   elapsed = (finish.tv_sec - start.tv_sec);
-   elapsed += (finish.tv_nsec - start.tv_nsec) / 1000000000.0;
+   
 
-   printf("area: %f\ntime used: %f seconds\n",sharedTrues/(numOfPoints*1.0)*4,elapsed);		//printing time elapsed and estimated area
+   printf("area: %f",sharedTrues/(numOfPoints*1.0)*4);		//printing time elapsed and estimated area
 
    return EXIT_SUCCESS;
 }
