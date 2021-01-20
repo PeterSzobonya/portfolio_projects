@@ -4,7 +4,7 @@
 
 My name is Peter Csaba Szobonya, I am from Hungary, and currently  I am studying Software Development at Eötvös Loránd University.
 I am a hard working, honest individual. I am a good timekeeper, always interested in acquiring new skills and I unfailingly make time to become familiar with new concepts. I am friendly, helpful and polite, have a good sense of humor. I am able to work independently in busy environments and also within a team setting. I am an able listener who would not shy away from making suggestions when it feels right.
-I love sports especially team sports like basketball and football but I could not say no to a grand bike tour. I am a keen traveler and a eager but super beginner photographer.
+I love sports especially team sports like basketball and football but I could not say no to a grand bike tour. I am a keen traveler and an eager but super beginner photographer.
 
 ---
 
