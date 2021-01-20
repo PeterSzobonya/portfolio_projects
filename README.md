@@ -39,7 +39,7 @@ The other project that is focused on php is an appointment creation page for Cov
 ## C projects
 
 The problems I solved as C projects were given to me by a good friend who studies at a British university. I loved working on them because it showed me things that I never knew before. It was challenging but exciting at the same time and I gained a lot of experience from it.
-As of now there are two projects that I uploaded and was written in C. The first is about multi threading and resource management. Where I had to calculate a circles area inside a unit square by generating random points and deciding if they were inside the circle or not. and the second is about POSIX system calls.
+As of now there are two projects that I uploaded and was written in C. The first is about multi threading and resource management. Where I had to calculate a circle`s area inside a unit square by generating random points and deciding if they were inside the circle or not. and the second is about POSIX system calls.
 
 ![picture of circle project](./c/readme_pics/circle/progress.jpg)
 
