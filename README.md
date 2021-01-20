@@ -8,7 +8,7 @@ I love sports especially team sports like basketball and football but I could no
 
 ---
 
-### Good to know
+## Good to know
 
 I divided my portfolio into different sections so it would be easier to navigate but I will summerize the whole thing here. Of course it is possible that as time goes on new projects will pop in here or older ones will be deleted so if there is any difference between this file and the content of the portfolio just dive in and explore the projects. I will try my best to keep this up to date and attach a readme for every section and every project.
 
