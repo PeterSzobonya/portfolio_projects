@@ -29,7 +29,7 @@ public class GameEngine extends JPanel {
 
     private final int FPS = 240;
     private final int PADDLE_Y = 550;
-    private final int PADDLE_WIDTH = 800;
+    private final int PADDLE_WIDTH = 250;
     private final int PADDLE_HEIGHT = 20;
     private final int PADDLE_MOVEMENT = 2;
     private final int BALL_RADIUS = 20;
